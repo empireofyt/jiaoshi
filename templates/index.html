@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+	<title>教室资源管理</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    
+    <script src="/static/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/static/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+<section class="headerwrap ">
+    <header>
+		<div  class=" header">
+ 			<div class="top">
+				<div class="wp">
+					<div class="fl"><p>服务电话：<b>110</b></p></div>
+					<!--登录后跳转-->
+
+                        
+                        <!-- <a style="color:white" class="fr registerbtn" href="register.html">注册</a> -->
+                        <!-- <a style="color:white" class="fr loginbtn" href="login.html">登录</a>  -->
+						
+						<div class="personal">
+                            <dl class="user fr">
+                                <dd>bobby<img class="down fr" src="/static/images/top_down.png"/></dd>
+                                <dt><img width="20" height="20" src="/static/media/image/2016/12/default_big_14.png"/></dt>
+                            </dl>
+                            <div class="userdetail">
+                            	<dl>
+	                                <dt><img width="80" height="80" src="/static/media/image/2016/12/default_big_14.png"/></dt>
+	                                <dd>
+	                                    <h2>django</h2>
+	                                    <p>你好</p>
+	                                </dd>
+                                </dl>
+                                <div class="btn">
+	                                <a class="fr" href="/logout/">退出</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+				</div>
+			</div>
+
+            
+            
+			<nav>
+				<div class="nav">
+					<div class="wp">
+						<ul>
+							<li class="active" ><a href="{%  url 'users:index' %}">首页</a></li>
+							<li >
+								<a href="{%  url 'users:huodong' %}">
+									活动<img class="hot" src="/static/images/nav_hot.png">
+								</a>
+							</li>
+							<li >
+								<a href="{%  url 'users:room' %}">空闲教室查询</a>
+							</li>
+                            <li><a >教室预约</a></li>
+							<li><a href="{%  url 'users:zhongxin' %}">进入个人中心</a></li>
+							<div style="float: right;">
+							<li> <a class="personcenter fl" href="{%  url 'users:login' %}">登录</a></li>
+							<li> <a class="personcenter fl" href="#">注册</a></li>
+							</div>
+						</ul>
+					</div>
+				</div>
+			</nav>
+            
+    </header>
+</section>
+<!--crumbs start-->
+
+
+
+    <div class="banner">
+			<div class="wp">
+				<div class="fl">
+					<div class="imgslide">
+						<ul class="imgs">
+                            
+                            <li>
+                                    <a href="http://www.imooc.com">
+                                        <img width="1200" height="675" src="/static/media/banner/2016/11/建大1.jpg" />
+                                    </a>
+                                </li>
+                            
+                            <li>
+                                    <a href="http://www.projectsedu.com">
+                                        <img width="1200" height="675" src="/static/media/banner/2016/11/建大21.jpg" />
+                                    </a>
+                                </li>
+                            
+                            <li>
+                                    <a href="http://www.projectsedu.com">
+                                        <img width="1200" height="675" src="/static/media/banner/2016/11/建达.jpg" />
+                                    </a>
+                                </li>
+                            
+                            <li>
+                                    <a href="http://www.projectsedu.com">
+                                        <img width="1200" height="675" src="/static/media/banner/2016/11/建大6.jpg" />
+                                    </a>
+                                </li>
+                            
+                            <li>
+                                 <a href="http://www.projectsedu.com">
+                                        <img width="1200" height="675" src="/static/media/banner/2016/11/建大5.jpg" />
+                                    </a>
+                                </li>
+                            
+
+						</ul>
+					</div>
+					<div class="unslider-arrow prev"></div>
+					<div class="unslider-arrow next"></div>
+				</div>
+
+				</div>
+
+
+			</div>
+<!--banner end-->
+<!--feature start-->
+	<section>
+		<div class="wp">
+			<ul class="feature">
+				<li class="feature1">
+					<img class="pic" src="/static/img/feature1.png"/>
+					<p class="center">建大美景</p>
+				</li>
+				<li class="feature2">
+					<img class="pic" src="/static/images/feature2.png"/>
+					<p class="center">建大风采</p>
+				</li>
+				<li class="feature3">
+					<img class="pic" src="/static/images/feature3.png"/>
+					<p class="center">易海学子</p>
+				</li>
+				<li class="feature4">
+					<img class="pic" src="/static/img/feature4.png"/>
+					<p class="center">九月美景</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+<!--feature end-->
+<!--module1 start-->
+	<section>
+		<div class="module">
+			<div class="wp">
+				<h1>建大活动</h1>
+				<div class="module1 eachmod">
+					<div class="module1_1 left">
+						<img width="228" height="614" src="/static/images/活动11.jpg"/>
+						<p class="fisrt_word">名师授课<br/>专业权威</p>
+						<a class="more" href="course-list.html">查看更多课程 ></a>
+					</div>
+					<div class="right group_list">
+						<div class="module1_2 box">
+							<div class="imgslide2">
+								<ul class="imgs">
+                                    
+                                    <li>
+                                        <a href="course-detail.html">
+                                            <img width="470" height="300" style="height:300px" src="/static/media/courses/2016/12/活动10.jpg" />
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="course-detail.html">
+                                            <img width="470" height="300" style="height:300px" src="/static/media/courses/2016/12/活动12.jpg" />
+                                        </a>
+                                    </li>
+                                    
+								</ul>
+							</div>
+							<div class="unslider-arrow2 prev"></div>
+							<div class="unslider-arrow2 next"></div>
+						</div>
+                            
+                            <div class="module1_3 box">
+                                <a href="course-detail.html">
+                                    <img width="233" height="300px" style="height:300px" src="/static/media/courses/2016/11/活动2.jpg"/>
+                                </a>
+                          
+                            </div>
+                            
+                            <div class="module1_4 box">
+                                <a href="course-detail.html">
+                                    <img width="233" height="300px" style="height:300px" src="/static/media/courses/2016/11/活动4.jpg"/>
+                                </a>
+                                
+                               
+                            </div>
+                            
+                            <div class="module1_5 box">
+                                <a href="course-detail.html">
+                                    <img width="233" height="300px" src="/static/media/courses/2016/11/活动9.jpg" style="height:300px"/>
+                                </a>
+                               
+                            </div>
+                            
+                            <div class="module1_6 box">
+                                <a href="course-detail.html">
+                                    <img width="233" height="300px" src="/static/media/courses/2016/11/活动8.jpg" style="height:300px"/>
+                                </a>
+                               
+                                
+                            </div>
+                            
+                            <div class="module1_7 box">
+                                <a href="course-detail.html">
+                                    <img width="233" height="300px" style="height:300px" src="/static/media/courses/2016/11/活动10.jpg"/>
+                                </a>
+                                
+                                
+                            </div>
+                            
+                            <div class="module1_8 box">
+                                <a href="course-detail.html">
+                                    <img width="233" height="300px" style="height:300px" src="/static/media/courses/2016/11/活动7.jpg"/>
+                                </a>
+                               
+                                
+                            </div>
+                            
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<script src="/static/js/selectUi.js" type='text/javascript'></script>
+<script src="/static/js/deco-common.js" type='text/javascript'></script>
+<script type="text/javascript" src="/static/js/plugins/laydate/laydate.js"></script>
+<script src="/static/js/plugins/layer/layer.js"></script>
+<script src="/static/js/plugins/queryCity/js/public.js" type="text/javascript"></script>
+<script src="/static/js/unslider.js" type="text/javascript"></script>
+<script src="/static/js/plugins/jquery.scrollLoading.js"  type="text/javascript"></script>
+<script src="/static/js/deco-common.js"  type="text/javascript"></script>
+
+</body>
+</html>

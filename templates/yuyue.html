@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#biaotilan{
+				height:50px;
+			    width:1200px;
+			    border: #007FFF solid 1px;
+		     	background-color: #0082DF;
+			}
+				#zhuti{
+				width: 1200px;
+				height: 600px;
+				border: #31B6E7 solid 1px;
+			}
+			#left{
+				width: 300px;
+				height: 600px;
+				border: #31B6E7 solid 1px;
+				float: left;
+			}
+			#right{
+				width: 895px;
+				height: 600px;
+				border: #31B6E7 solid 1px;
+				float: left;
+			}
+			
+		</style>
+	</head>
+	<body>
+    	<div id="biaotilan">
+    		<table height="100%" width="100%" border="1px" cellspacing="0px">
+    			<tr>
+    				<td width="25%" align="center">
+    					<a href="{%  url 'index' %}" style=" color: coral;">返回</a>
+    				</td>
+    				<td width="50%" style="text-align: center; ">
+    				     <p>教室预约</p>
+    				</td>
+    				<td width="25%" style="text-align: center; ">
+    					<a href="#" style=" color: coral;">我的预约</a>
+    				</td>
+    			</tr>
+    		</table>
+    	</div>
+    	<div id="zhuti">
+			<div id="left">
+				<p>教室号<input type="text" style="margin-left: 10px; margin-top: 150px; " placeholder="----"/></p>
+				<p>预约时长<input type="text" style="margin-left: 10px; margin-top: 50px; "  placeholder="00:00-00:00"/></p>
+				<p>预约理由<input type="text" style="margin-left: 10px; margin-top: 50px; width: 100px; height: 60px;"  placeholder="00:00-00:00"/></p>
+				<p><input type="submit" value="提交" style="margin-left: 50px;  " ></input></p>
+			</div>
+			<div id="right">
+				<div class="xianshi">
+					<iframe name="xian" style="width: 890px; height:600px; " ></iframe>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
+
